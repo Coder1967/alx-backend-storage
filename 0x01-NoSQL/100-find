@@ -1,0 +1,3 @@
+// Write a script that lists all documents with name beginning with "Holberton"
+// in the school collection
+db.school.find({"name": { $regex: /^Holberton/ }})
